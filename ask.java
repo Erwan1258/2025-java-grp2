@@ -2,36 +2,30 @@ import java.util.Scanner;
 
 public class ask {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in); // Création de l'objet Scanner
 
-        System.out.print("entrez votre nom : " );
-        String nom = scanner.nextLine();
+        System.out.print("Entrez votre nom : ");
+        String nom = scanner.nextLine(); // Lecture de la ligne saisie
 
-        
-        
-        System.out.print("entrez votre age : " );
-        int age = 0 ;
-        if (scanner.hasNext) {
-            
+        System.out.print("Entrez votre age : ");
+        int age = 0;
+        if (scanner.hasNextInt()) {
+            age = scanner.nextInt();
+        }
+        else {
+            System.out.println("Age non correcte !");
+            System.exit(0);
         }
 
+        scanner.close(); // Fermeture du scanner
 
-        scanner.close();
-        System.out.println(" Bonjour " + nom + " ! Vous avez " + age + "ans");
-        
-
+        System.out.println("Bonjour " + nom + " ! Vous avez " + age + " ans");
 
         if (age > 18) {
-            System.out.println("vous etes majeure ! " );
+            System.out.println("Vous êtes majeur !");
+        } else {
+            System.out.println("Vous êtes mineur !");
         }
-        else
-        {
-            System.out.println("vous etes mineurer ! " );
-        }
-
-        
-
 
     }
-    
 }
