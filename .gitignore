@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> fb99d79 (Ajout de la page d'accueil)
 ### IntelliJ IDEA ###
 out/
 !**/src/main/**/out/
@@ -27,7 +30,11 @@ bin/
 .vscode/
 
 ### Mac OS ###
+<<<<<<< HEAD
 .DS_Store
 =======
 *.class
 >>>>>>> 7293e446d463323550caa45846b316a4dde61a9c
+=======
+.DS_Store
+>>>>>>> fb99d79 (Ajout de la page d'accueil)

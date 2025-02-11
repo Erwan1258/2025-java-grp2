@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/exo4.iml" filepath="$PROJECT_DIR$/exo4.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/ecole sys.iml" filepath="$PROJECT_DIR$/ecole sys.iml" />
+>>>>>>> fb99d79 (Ajout de la page d'accueil)
     </modules>
   </component>
 </project>
